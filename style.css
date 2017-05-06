@@ -12,17 +12,7 @@
 	animation: MoveUpDown 1s linear infinite;
 }
 
-@keyframes MoveUpDown {
-	0% {
-		top: 0%;
-	}
-	50% {
-		top: 50%;
-	}
-	100% {
-		top: 100%;
-	}
-}
+
 img {
     position: absolute;
     margin: auto;
