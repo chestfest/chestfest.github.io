@@ -1,3 +1,16 @@
+@font-face {
+	font-family: Lady_Radical;
+	src: url(Fonts/Lady_Radical.ttf);
+	font-weight: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
 .animated-image {
 	
 	position: absolute;
