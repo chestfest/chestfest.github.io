@@ -26,3 +26,12 @@
 <body>
 		<a target="_blank"><img src="/ChestFest.gif" class="link-image" alt="Book">
 		</a>
+	<script>
+			var link = document.getElementById("link");
+			document.onkeydown = function(e) {
+				if (e.keyCode == 32) {
+					link.click();
+				}
+			};
+		</script>
+	</body>
