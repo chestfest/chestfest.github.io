@@ -1,0 +1,17 @@
+.animated-image {
+	
+	position: absolute;
+	animation: MoveUpDown 1s linear infinite;
+}
+
+@keyframes MoveUpDown {
+	0% {
+		top: 65%;
+	}
+	50% {
+		top: 68%;
+	}
+	100% {
+		top: 65%;
+	}
+}
