@@ -14,13 +14,13 @@
 
 @keyframes MoveUpDown {
 	0% {
-		top: 65%;
+		top: 0%;
 	}
 	50% {
-		top: 68%;
+		top: 50%;
 	}
 	100% {
-		top: 65%;
+		top: 100%;
 	}
 }
 img {
