@@ -10,6 +10,10 @@ img {
     box-shadow: 15px 15px 10px black;
 }
 
+img {
+     text-shadow: 1px 1px 2px black;
+}
+
 .animated-img {
   animation: MoveUpDown 1s linear infinite;
 }
