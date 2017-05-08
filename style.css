@@ -1,29 +1,31 @@
 @font-face {
-	font-family: Lady_Radical;
-	src: url(Fonts/Lady_Radical.ttf);
-	font-weight: normal;
+    font-family: Lady_Radical;
+    src: url(Fonts/Lady_Radical.ttf);
+    font-weight: normal;
 }
 
-body {background-color: #1c1c1c;}
+body {
+    background-color: #1c1c1c;
+}
 
 img {
     box-shadow: 15px 15px 10px black;
 }
 
 .animated-img {
-  animation: MoveUpDown 1s linear infinite;
+    animation: MoveUpDown 1s linear infinite;
 }
 
 @keyframes MoveUpDown {
-  0% {
-    bottom: 0;
-  }
-  50% {
-    bottom: 10px;
-  }
-  100% {
-    bottom: 0;
-  }
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: 0;
+    }
 }
 
 img {
