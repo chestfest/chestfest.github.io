@@ -6,6 +6,10 @@
 
 body {background-color: #1c1c1c;}
 
+img {
+    box-shadow: 10px 10px 5px grey;
+}
+
 .animated-img {
   animation: MoveUpDown 1s linear infinite;
 }
