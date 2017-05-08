@@ -6,9 +6,6 @@
 
 .animated-img {
   animation: MoveUpDown 1s linear infinite;
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
 @keyframes MoveUpDown {
