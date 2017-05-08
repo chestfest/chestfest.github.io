@@ -4,15 +4,6 @@
 	font-weight: normal;
 }
 
-
-
-.animated-image {
-	
-	position: absolute;
-	animation: MoveUpDown 1s linear infinite;
-}
-
-
 img {
     position: absolute;
     margin: auto;
