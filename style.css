@@ -1,7 +1,6 @@
 @font-face {
-    font-family: Nokia Cellphone FC;
+    font-family: myFirstFont;
     src: url(/nokiafc22.ttf);
-    font-weight: bold; 
 }
 
 body {
