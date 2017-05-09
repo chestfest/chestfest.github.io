@@ -31,3 +31,37 @@ img {
 	list-style: none;
 	text-align: center;
 }
+
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 120%;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 3px solid transparent;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 3px solid #fff;
+}
+
+@keyframes MoveUpDown {
+	0% {
+		transform: translate3d(0, -0, 0);
+	}
+	50% {
+		transform: translate3d(0, -10%, 0);
+	}
+	100% {
+		transform: translate3d(0, -0, 0);
+	}
+}
