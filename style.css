@@ -21,7 +21,7 @@ img {
     bottom: 0;
 }
 
-button {
+.button {
     position: absolute;
     margin: auto;
     top: 0;
