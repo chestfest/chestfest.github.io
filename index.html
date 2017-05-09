@@ -29,25 +29,34 @@
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-	<header>
-		<nav>
-			<div>
-				<ul class="main-nav">
-					<b><button type="button" class="btn btn-info">ChestFest</button></b>
-				</ul>
-			</div>
-		</nav>
-	</header>
-<body>
-    <a href="https://chestfest.github.io/" target="_blank" class="animated-img"><img src="/ChestFest.gif" class="w3-hover-opacity" alt="Book"></a>
-<script>
-			var link = document.getElementById("link");
-			document.onkeydown = function(e) {
-				if (e.keyCode == 32) {
-					link.click();
-				}
-			};
+<header>
+    <nav>
+        <div>
+            <ul class="main-nav">
+                <b><button type="button" id="copytext" class="btn btn-info">ChestFest</button></b>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-		</script>
-  </body>
+<body>
+    <a href="https://chestfest.github.io/" target="_blank" class="link"><img src="/ChestFest.gif" class="w3-hover-opacity" alt="Book"></a>
+    <script>
+        var link = document.getElementById("link");
+        document.onkeydown = function(e) {
+            if (e.keyCode == 32) {
+                link.click();
+            }
+        };
+
+        let button = document.getElementById('copytext');
+
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.execCommand('copy', false, document.getElementById('select-this').select());
+        });
+
+    </script>
+</body>
+
 </html>
