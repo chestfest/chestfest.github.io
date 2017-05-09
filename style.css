@@ -23,7 +23,7 @@ img {
 
 .main-nav {
 	width: 100%;
-	background-color: rgba(52, 54, 54, 0.98);
+	background-color: rgba(0, 0, 0, 0.98);
 	box-shadow: 0 2px 2px #000000;
 	z-index: 9999;
 	padding: 15px;
