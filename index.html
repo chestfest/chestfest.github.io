@@ -33,8 +33,14 @@
     <nav>
         <div>
             <ul class="main-nav">
-                <button type="button" id="copy()" class="btn btn-info" onclick="play()">ChestFest</button>
-                <audio id="audio" src="/smb3coin.mp3"></audio>
+                <div class="dropdown">
+                    <button type="button" id="copy()" class="btn btn-info" onclick="play()">ChestFest</button>
+                    <audio id="audio" src="/smb3coin.mp3"></audio>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                </div>
             </ul>
         </div>
     </nav>
@@ -49,6 +55,7 @@
             var audio = document.getElementById("audio");
             audio.play();
         }
+
     </script>
 </body>
 
