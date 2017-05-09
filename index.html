@@ -34,19 +34,27 @@
         <div>
             <ul class="main-nav">
                 <button type="button" id="copy()" class="btn btn-info" onclick="play()">ChestFest</button>
-                <audio id="audio" src="/smb3coin.mp3" ></audio>
+                <audio id="audio" src="/smb3coin.mp3"></audio>
             </ul>
         </div>
     </nav>
 </header>
 
 <body>
-    <a href="https://chestfest.github.io/" target="_blank" class="link"><img src="/ChestFest.gif" class="w3-hover-opacity" alt="Book"></a>
+    <button class="link"><img src="/ChestFest.gif" class="w3-hover-opacity" alt="Book"></button>
+    <span id="coin"></span>
     <script>
         function play() {
             var audio = document.getElementById("audio");
             audio.play();
         }
+        $(function() {
+                    var btc = 0;
+                    var ticks;
+
+                    if (localStorage.getItem('coin') !== null) {
+                        btc = parseFloat(localStorage.getItem('btc'));
+                        updateDisplay();
 
     </script>
 </body>
