@@ -1,10 +1,11 @@
 @font-face {
-    font-family: myFirstFont;
+    font-family: nokia;
     src: url(/nokiafc22.ttf);
 }
 
 body {
     background-color: #1c1c1c;
+    font-family: nokia;
 }
 
 img {
