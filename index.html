@@ -24,6 +24,7 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -42,7 +43,6 @@
                 <button type="button" id="copy()" class="btn btn-primary" onclick="play()">E</button>
                 <button type="button" id="copy()" class="btn btn-primary" onclick="play()">S</button>
                 <button type="button" id="copy()" class="btn btn-primary" onclick="play()">T</button>
-                <button type="button" id="copy()" class="btn btn-outline-primary waves-effect" onclick="play()">+</button>
                 <audio id="audio" src="/Powerup.wav"></audio>
             </ul>
         </div>
@@ -53,12 +53,6 @@
 
     <a href="#" target="_self" class="link" onclick="MyWindow=window.open('https://chestfest.github.io/','MyWindow',width=600,height=300); return false;"><img src="/ChestFest.gif" class="w3-hover-opacity" alt="ChestFest"></a>
 
-    <script>
-        function play() {
-            var audio = document.getElementById("audio");
-            audio.play();
-        }
-    </script>
 </body>
 
 </html>
