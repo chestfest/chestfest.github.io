@@ -53,7 +53,8 @@ img {
     border-bottom: 3px solid #fff;
 }
 
-button{
-  margin:auto;
-  display:block;
+button {
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
 }
