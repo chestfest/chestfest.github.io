@@ -38,12 +38,11 @@
                 <button type="button" id="copy()" class="btn btn-info" onclick="play()">E</button>
                 <button type="button" id="copy()" class="btn btn-info" onclick="play()">S</button>
                 <button type="button" id="copy()" class="btn btn-info" onclick="play()">T</button><br>
-                <button type="button" id="copy()" class="btn btn-primary" onclick="play2()">F</button>
-                <button type="button" id="copy()" class="btn btn-primary" onclick="play2()">E</button>
-                <button type="button" id="copy()" class="btn btn-primary" onclick="play2()">S</button>
-                <button type="button" id="copy()" class="btn btn-primary" onclick="play2()">T</button>
+                <button type="button" id="copy()" class="btn btn-primary" onclick="play()">F</button>
+                <button type="button" id="copy()" class="btn btn-primary" onclick="play()">E</button>
+                <button type="button" id="copy()" class="btn btn-primary" onclick="play()">S</button>
+                <button type="button" id="copy()" class="btn btn-primary" onclick="play()">T</button>
                 <audio id="audio" src="/Powerup.wav"></audio>
-                <audio id="audio2" src="/Powerup2.wav"></audio>
             </ul>
         </div>
     </nav>
@@ -56,10 +55,6 @@
     <script>
         function play() {
             var audio = document.getElementById("audio");
-            audio.play();
-        }
-        function play2() {
-            var audio = document.getElementById("audio2");
             audio.play();
         }
     </script>
