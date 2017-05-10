@@ -34,8 +34,9 @@
         <div>
             <ul class="main-nav">
                 <button type="button" id="copy()" class="btn btn-info" onclick="play()">Bing</button>
-                <button type="button" id="copy()" class="btn btn-primary" onclick="play()">Bong</button>
+                <button type="button" id="copy()" class="btn btn-primary" onclick="play2()">Bong</button>
                 <audio id="audio" src="/Powerup.wav"></audio>
+               <audio id="audio2" src="/Powerup.wav"></audio>
 
             </ul>
         </div>
@@ -51,7 +52,10 @@
             var audio = document.getElementById("audio");
             audio.play();
         }
-
+     function play2() {
+            var audio = document.getElementById("audio2");
+            audio.play();
+        }
     </script>
 </body>
 
