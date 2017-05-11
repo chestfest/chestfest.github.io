@@ -92,9 +92,9 @@ img {
 }
 
 .loader {
-    border: 16px solid #f3f3f3;
+    border: 16px solid #1c1c1c;
     /* Black */
-    border-top: 16px solid #1c1c1c;
+    border-top: 16px solid #3498db;
     /* Blue */
     border-radius: 50%;
     width: 120px;
