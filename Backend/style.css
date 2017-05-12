@@ -21,7 +21,7 @@ img {
     bottom: 0;
 }
 
-input {
+input[type=text] {
     position: absolute;
     margin: auto;
     top: 0;
