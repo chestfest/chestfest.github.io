@@ -1,0 +1,12 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+service: shorturl
+
+handlers:
+- url: /static
+  static_dir: static
+  secure: always
+- url: /.*
+  script: main.app
+  secure: always
