@@ -35,7 +35,7 @@ img {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    text-transform: uppercase;
+    text-transform: strong;
     font-size: 120%;
 }
 
@@ -66,7 +66,6 @@ img {
 }
 
 #wordbox {
-    /*opacity: 0;*/
     margin: 30px auto 0;
     display: block;
     width: 300px;
