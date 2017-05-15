@@ -33,10 +33,10 @@ img {
 }
 
 .main-nav li {
-    display: inline-block;
+    /*display: inline-block;*/
     margin-left: 40px;
     text-transform: strong;
-    font-size: 120%;
+    font-size: 240%;
 }
 
 .main-nav li a:link,
