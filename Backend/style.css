@@ -33,7 +33,7 @@ img {
 }
 
 .main-nav li {
-    /*display: inline-block;*/
+    display: inline-block;
     margin-left: 40px;
     text-transform: strong;
     font-size: 240%;
