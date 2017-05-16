@@ -77,3 +77,11 @@ img {
     color: #000000;
     transition: 1s linear;
 }
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: blue;
+}
