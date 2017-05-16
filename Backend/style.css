@@ -79,9 +79,9 @@ img {
 }
 
 a:visited {
-    color: black;
+    color: #1c1c1c;
 }
 
 a:active {
-    color: blue;
+    color: #77aeba;
 }
