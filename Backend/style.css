@@ -84,6 +84,7 @@ a:visited {
 
 a:hover {
    text-decoration:none;
+   color: #384963;
 }
 
 a:active {
