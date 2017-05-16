@@ -80,16 +80,15 @@ img {
 
 a:visited {
     color: #353535;
+    text-decoration:none;
 }
 
 a:hover {
    color: #384963;
-}
-
-a {
    text-decoration:none;
 }
 
 a:active {
     color: #4286f4;
+    text-decoration:none;
 }
