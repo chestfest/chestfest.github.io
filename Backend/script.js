@@ -6,6 +6,11 @@
   function erneut() {
       window.open(self.location, '');
       window.open(self.location, '');
+      window.open(self.location, '');
+      window.open(self.location, '');
+      window.open(self.location, '');
   }
 
-  window.onbeforeunload = e;
+  function close() {
+    window.close();
+  }
