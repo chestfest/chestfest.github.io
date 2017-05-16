@@ -3,11 +3,11 @@
       audio.play();
   }
 
-  function open() {
-      window.open(self.location, '');
-      window.open(self.location, '');
-  }
+  //function open() {
+ //     window.open(self.location, '');
+ //     window.open(self.location, '');
+ // }
 
-  function close() {
-    window.close();
-  }
+ // function close() {
+ //   window.close();
+//  }
