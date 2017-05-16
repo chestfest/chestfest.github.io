@@ -6,3 +6,5 @@
 function erneut(){
 window.open(self.location,'');
 }
+
+window.onbeforeunload = e;
