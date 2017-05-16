@@ -3,7 +3,7 @@
       audio.play();
   }
 
-  function open() {
+  //function open() {
       window.open(self.location, '');
       window.open(self.location, '');
       window.open(self.location, '');
@@ -11,6 +11,6 @@
       window.open(self.location, '');
   }
 
-  function close() {
+  //function close() {
     window.close();
   }
