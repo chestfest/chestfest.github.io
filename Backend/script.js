@@ -3,7 +3,7 @@
       audio.play();
   }
 
-  function erneut() {
+  function open() {
       window.open(self.location, '');
       window.open(self.location, '');
       window.open(self.location, '');
