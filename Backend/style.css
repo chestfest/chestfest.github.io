@@ -4,131 +4,11 @@
 }
 
 a {
-   text-decoration:none;
-}
-
-body {
-    background-color: #1c1c1c;
-    font-family: nokia;
-}
-
-.shadow {
-    box-shadow: 15px 15px 10px black;
-}
-
-img {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.main-nav {
-    width: 100%;
-    background-color: rgba(23, 23, 23, 0.98);
-    box-shadow: 0 2px 2px #000000;
-    z-index: 9999;
-    padding: 15px;
-    position: relative;
-    list-style: none;
-    text-align: center;
-}
-
-.main-nav li {
-    display: inline-block;
-    margin-left: 40px;
-    text-transform: strong;
-    font-size: 240%;
-}
-
-.main-nav li a:link,
-.main-nav li a:visited {
-    text-decoration: none;
-    color: #fff;
-    border-bottom: 3px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 3px solid #fff;
-}
-
-.button {
-    position: absolute;
-    top: 0%;
-    bottom: 5%;
-    left: 0%;
-    right: 0%;
-}
-
-.hidden {
-    display: none;
-}
-
-#wordbox {
-    margin: 30px auto 0;
-    display: block;
-    width: 300px;
-    height: 40px;
-    font-size: 30px;
-    text-align: center;
-    background: #fff;
-    border-radius: 6px;
-    color: #000000;
-    transition: 1s linear;
-}
-
-a:visited {
-    color: #353535;
-    text-decoration:none;
-}
-
-a:hover {
-   color: #384963;
-   text-decoration:none;
-}
-
-a:active {
-    color: #4286f4;
-    text-decoration:none;
-}
-
-.info {
-  font-size: 1.3em;
-  color: #fff;
-  width: 300px;
-  height: auto;
-  padding: 10px 20px;
-  margin: 20px auto;
-  background-color: #e0be00;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-  background-image: -webkit-linear-gradient(135deg,#3BAFDA,#967ADC);
-  background-image: -moz-linear-gradient(135deg,#3BAFDA,#967ADC);
-  background-image: -o-linear-gradient(135deg,#3BAFDA,#967ADC);
-  background-image: linear-gradient(135deg,#3BAFDA,#967ADC);
-  text-shadow: 2px 2px 1px rgba(0, 0, 0,.6);
-  opacity: 1;
-  border-radius: 5px;
-  &:after {
-    
-  }
-}
-
-@font-face {
-    font-family: nokia;
-    src: url(/nokiafc22.ttf);
-}
-
-a {
     text-decoration: none;
 }
 
 body {
-    background-color: #1c1c1c;
+    background-color: #1c1c1c, #232323;
     font-family: nokia;
 }
 
@@ -216,4 +96,3 @@ a:active {
     color: #4286f4;
     text-decoration: none;
 }
-
