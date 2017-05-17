@@ -3,11 +3,8 @@
       audio.play();
   }
 
-  //function open() {
- //     window.open(self.location, '');
- //     window.open(self.location, '');
- // }
-
- // function close() {
- //   window.close();
-//  }
+$(document).ready(function() {
+	$.getJSON('http://jsonip.com?callback=?', function (data) {
+      $('#ip-address').text(data.ip);
+  });	
+});
