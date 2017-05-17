@@ -1,4 +1,4 @@
-# `CʜᴇsᴛFᴇsᴛ✅` [![Build status]https://github.com/chestfest/chestfest.github.io/]
+# `CʜᴇsᴛFᴇsᴛ✅`
 
 > desc in wip mode (not final)
 
