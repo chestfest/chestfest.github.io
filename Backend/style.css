@@ -217,15 +217,15 @@ a:active {
     text-decoration: none;
 }
 
-.section-about {
+section-about {
     font-family: 'nokia', sans-serif;
     font-weight: bold;
 }
 
-.section-about .row .col {
+section-about .row .col {
     margin: 0 15px;
 }
 
-.section-about .row .col:nth-child(1) {
+section-about .row .col:nth-child(1) {
     width: auto;
 }
