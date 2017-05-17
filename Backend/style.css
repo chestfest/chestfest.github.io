@@ -96,3 +96,24 @@ a:active {
     color: #4286f4;
     text-decoration:none;
 }
+
+.info {
+  font-size: 1.3em;
+  color: #fff;
+  width: 300px;
+  height: auto;
+  padding: 10px 20px;
+  margin: 20px auto;
+  background-color: #e0be00;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  background-image: -webkit-linear-gradient(135deg,#3BAFDA,#967ADC);
+  background-image: -moz-linear-gradient(135deg,#3BAFDA,#967ADC);
+  background-image: -o-linear-gradient(135deg,#3BAFDA,#967ADC);
+  background-image: linear-gradient(135deg,#3BAFDA,#967ADC);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0,.6);
+  opacity: 1;
+  border-radius: 5px;
+  &:after {
+    
+  }
+}
