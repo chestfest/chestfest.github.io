@@ -10,6 +10,7 @@ a {
 body {
     background-color: #1c1c1c;
     font-family: nokia;
+    cursor: url(Images/cursor.cur);
 }
 
 .shadow {
@@ -98,44 +99,45 @@ a:active {
 }
 
 .button {
-   background: #3299bb;
-   color: white;
-   font-family: Arial;
-   padding: 10px;
-   border-radius: 5px;
-   position: relative;
-   top: 10px;
-   left: 10px;
-   cursor: pointer;
-   box-shadow: 0px 3px 10px black;
+    background: #3299bb;
+    color: white;
+    font-family: Arial;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px black;
 }
 
 .button:active {
-   top: 12px; 
-   box-shadow: 0px 2px 10px black;
+    top: 12px;
+    box-shadow: 0px 2px 10px black;
 }
 
 .button:hover {
-   background: #3999ee; 
+    background: #3999ee;
 }
 
 div.video {
-   width: 420px;
-   height: 315px;
-   padding: 20px;
-   background: #aaa;
-   display: none;
-   position: absolute;
-   border-radius: 5px;
-   box-shadow: 3px 3px 10px black;
+    width: 420px;
+    height: 315px;
+    padding: 20px;
+    background: #aaa;
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
 }
+
 div.video-wrapper {
-   z-index: 1;
-   background: rgba(0,0,0,.5);
-   position: absolute;
-   display: none;
-   width: 100%;
-   height: 100%;
-   top: 0px;
-   left: 0px;
+    z-index: 1;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
 }
