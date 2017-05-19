@@ -1,9 +1,7 @@
 # `CʜᴇsᴛFᴇsᴛ`
 
-> waddup bois
-
 ****
-https://chestfest.github.io/
+>https://chestfest.github.io/
 ****
 
 
