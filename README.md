@@ -1,10 +1,6 @@
 Opauth-Google
 =============
-[Opauth][1] strategy for Google authentication.
-
-Implemented based on https://developers.google.com/accounts/docs/OAuth2 using OAuth 2.0.
-
-Opauth is a multi-provider authentication framework for PHP.
+desc
 
 Getting started
 ----------------
