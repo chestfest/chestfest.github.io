@@ -26,7 +26,7 @@ https://chestfest.github.io/
     </audio>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
     <meta name="description" content="ChestFest Offical Website">
     <title>CʜᴇsᴛFᴇsᴛ</title>
 
