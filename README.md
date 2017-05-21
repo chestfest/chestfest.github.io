@@ -18,7 +18,8 @@ https://chestfest.github.io/
                                                                                                                                                                                                                                                                                                               
 -->
 <!--[if IE 9]> <html class="ie9 supports-no-js" lang="en"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <audio autoplay>
@@ -26,7 +27,7 @@ https://chestfest.github.io/
     </audio>
 
     <meta charset="utf-8">
-    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
     <meta name="description" content="ChestFest Offical Website">
     <title>CʜᴇsᴛFᴇsᴛ</title>
 
@@ -61,6 +62,7 @@ https://chestfest.github.io/
 </body>
 
 </html>
+
 
 ```
 
