@@ -8,11 +8,11 @@ a {
 }
 
 body {
-    background: #282537;
- background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
- background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
- background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
- background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    background: #000000;
+    background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #1c1c1c 80%);
+    background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #1c1c1c 80%);
+    background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #1c1c1c 80%);
+     background-image: radial-gradient(top, circle cover, #3c3b52 0%, #1c1c1c 80%);
     font-family: nokia;
     cursor: url(Images/cursor.cur);
 }
