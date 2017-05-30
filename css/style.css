@@ -34,6 +34,10 @@ body {
     box-shadow: 15px 15px 10px black;
 }
 
+#shadow {
+    box-shadow: 5px 5px 3px black;
+}
+
 #img {
     position: absolute;
     margin: auto;
