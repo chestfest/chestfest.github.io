@@ -9,7 +9,7 @@ a {
 
 .foot {
    position: relative;
-   bottom: 0;
+   float: bottom;
    float: right;
 }
 
