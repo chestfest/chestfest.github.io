@@ -7,6 +7,12 @@ a {
     text-decoration: none;
 }
 
+.foot {
+   position: relative;
+   bottom: 0;
+   float: right;
+}
+
 html {
     position:fixed;
     top:0;
