@@ -1,6 +1,6 @@
-ChestFest
+Project ChestFest
 =============
-`https://chestfest.github.io/`
+>Our team strives to meet your maximum satisfication by improving our project for your needs.
 
 License
 ---------
