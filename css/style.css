@@ -27,7 +27,6 @@ body {
     background-image: -moz-radial-gradient(top, circle cover, #212121 0%, #1c1c1c 80%);
     background-image: -o-radial-gradient(top, circle cover, #212121 0%, #1c1c1c 80%);
     background-image: radial-gradient(top, circle cover, #212121 0%, #1c1c1c 80%);
-    background:url(/Display/Images/4.png) fixed no-repeat bottom right;
     font-family: nokia;
     cursor: url(Images/cursor.cur);
     position:fixed;
