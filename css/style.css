@@ -7,12 +7,6 @@ a {
     text-decoration: none;
 }
 
-.foot {
-   position: relative;
-   float: bottom;
-   float: right;
-}
-
 html {
     position:fixed;
     top:0;
@@ -41,7 +35,7 @@ body {
 }
 
 #shadow {
-    box-shadow: 5px 5px 3px black;
+    box-shadow: 5px 5px 2px black;
 }
 
 #img {
