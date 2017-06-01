@@ -64,20 +64,6 @@ body {
     font-size: 240%;
 }
 
-.main-nav li a:link,
-.main-nav li a:visited {
-    text-decoration: none;
-    color: #fff;
-    border-bottom: 3px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 3px solid #fff;
-}
-
 .button {
     position: absolute;
     top: 0%;
@@ -103,17 +89,17 @@ body {
     transition: 1s linear;
 }
 
-a:visited {
+.main-nav li a:visited {
     color: #353535;
     text-decoration: none;
 }
 
-a:hover {
+.main-nav li a:hover {
     color: #384963;
     text-decoration: none;
 }
 
-a:active {
+.main-nav li a:active {
     color: #4286f4;
     text-decoration: none;
 }
