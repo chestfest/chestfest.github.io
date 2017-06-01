@@ -17,10 +17,7 @@ html {
 
 body {
     background: #1c1c1c;
-    background-image: -webkit-radial-gradient(top, circle cover, #212121 0%, #1c1c1c 80%);
-    background-image: -moz-radial-gradient(top, circle cover, #212121 0%, #1c1c1c 80%);
-    background-image: -o-radial-gradient(top, circle cover, #212121 0%, #1c1c1c 80%);
-    background-image: radial-gradient(top, circle cover, #212121 0%, #1c1c1c 80%);
+    background-image: url(/Display/Images/Sunset.png)
     font-family: nokia;
     cursor: url(Images/cursor.cur);
     position:fixed;
