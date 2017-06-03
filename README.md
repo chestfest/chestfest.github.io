@@ -1,7 +1,8 @@
 <html><div align="center"><center><img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest"></center></div></html>
 
 ---------
-###Our service specificly provides each individual a unique program that exemplifies professional accuracy of debunking website of the users concern. We arrange a slick UI that impresses our customers.
+##About
+Our service specificly provides each individual a unique program that exemplifies professional accuracy of debunking website of the users concern. We arrange a slick UI that impresses our customers.
 - Object-oriented
 - Performant
 - Predictable abstractions
