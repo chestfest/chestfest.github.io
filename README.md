@@ -1,6 +1,4 @@
-                    <img src="/Display/Images/Shadow.png" style="w3-image" class="shadow" id="img" alt/="Shadow">
-                    <img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest">
-                    <img src="/Display/Images/cf.png" style="w3-image" id="img" alt="Text">
+                   <img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest">
 
 </body>
 
