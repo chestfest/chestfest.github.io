@@ -1,4 +1,4 @@
-<center><img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest">
+<center><img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest"></center>
 
 =============
 >Our team strives to meet your maximum satisfication by improving our project for your needs. 
