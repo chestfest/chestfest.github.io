@@ -8,6 +8,5 @@ Our service specificly provides each individual a unique program that exemplifie
 - Predictable abstractions
 
 License
----------
 Copyright © 2017 ChestFest (http://chestfest.github.io)
 
