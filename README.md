@@ -2,7 +2,7 @@
 
 
 ## About
-Our service specificly provides each individual a unique program that exemplifies professional accuracy of debunking website of the users concern. We arrange a slick UI that impresses our customers.
+Our service specificly provides each individual a unique program that exemplifies professional accuracy of debunking website(s) of the users concern.
 ### Our Mottos
 - Object-oriented
 - Performant
