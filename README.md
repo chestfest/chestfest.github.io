@@ -3,6 +3,7 @@
 
 ## About
 Our service specificly provides each individual a unique program that exemplifies professional accuracy of debunking website of the users concern. We arrange a slick UI that impresses our customers.
+### We are...
 - Object-oriented
 - Performant
 - Predictable abstractions
