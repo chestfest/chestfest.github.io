@@ -1,9 +1,4 @@
-                   <img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest">
-
-</body>
-
-</html>
-
+<img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest">
 
 CʜᴇsᴛFᴇsᴛ
 =============
