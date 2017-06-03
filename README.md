@@ -1,8 +1,11 @@
 <html><div align="center"><center><img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest"></center></div></html>
 
-
 ---------
->Our team strives to meet your maximum satisfication by improving our project for your needs. 
+>Our service specificly provides each individual a unique program that exemplifies professional accuracy of debunking website of the users concern. We arrange a slick UI that impresses our customers.
+- Object-oriented
+- Performant
+- Predictable abstractions
+
 License
 ---------
 Copyright © 2017 ChestFest (http://chestfest.github.io)
