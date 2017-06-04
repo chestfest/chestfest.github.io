@@ -8,34 +8,34 @@ a {
 }
 
 html {
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 section {
-	padding: 80px 0;
+    padding: 80px 0;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     background-color: #1c1c1c;
     font-family: nokia;
     cursor: url(Images/cursor.cur);
-    overflow:hidden;
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .shadow {
@@ -70,21 +70,6 @@ body {
     display: inline-block;
     text-transform: strong;
     font-size: 240%;
-}
-
-
-header i {
-	color: #fff;
-	font-size: 3.5em;
-	text-align: center;
-	display: block;
-	position: absolute;
-	bottom: 5px;
-	left: 0;
-	right: 0;
-	animation-name: down-arrow-float;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
 }
 
 .button {
