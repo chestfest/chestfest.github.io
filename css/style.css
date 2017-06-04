@@ -61,6 +61,21 @@ body {
     font-size: 240%;
 }
 
+
+header i {
+	color: #fff;
+	font-size: 3.5em;
+	text-align: center;
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	animation-name: down-arrow-float;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
 .button {
     position: absolute;
     top: 0%;
