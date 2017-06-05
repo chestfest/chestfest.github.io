@@ -31,7 +31,8 @@ body {
 }
 
 h1 {
-    font-family: nokia;
+    font-family: nokia
+    text-align: center;
 }
 
 .row:before, .row:after {
