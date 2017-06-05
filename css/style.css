@@ -33,7 +33,7 @@ body {
 h1 {
     font-family: nokia
     text-align: center;
-    background-color: #1c1c1c;
+    color: white;
 }
 
 .row:before, .row:after {
@@ -139,7 +139,7 @@ h1 {
 .button {
     background: #3299bb;
     color: white;
-    font-family: Arial;
+    font-family: nokia;
     padding: 10px;
     border-radius: 5px;
     position: relative;
