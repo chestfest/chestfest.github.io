@@ -30,6 +30,10 @@ body {
     right: 0;
 }
 
+h1 {
+    font-family: nokia;
+}
+
 .row:before, .row:after {
     content: "";
     display: table;
