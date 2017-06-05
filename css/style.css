@@ -33,6 +33,7 @@ body {
 h1 {
     font-family: nokia
     text-align: center;
+    background-color: #1c1c1c;
 }
 
 .row:before, .row:after {
