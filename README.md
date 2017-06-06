@@ -1,4 +1,4 @@
-<html><div class="w3-hover-opacity"><div align="center"><center><img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest"></center></div></html>
+<html><a href="https://chestfest.github.io/"><div align="center"><img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest"></div></a></html>
 
 
 ## About
