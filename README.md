@@ -1,6 +1,5 @@
 <html><a href="https://chestfest.github.io/" target="_blank"><div align="center"><img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest"></div></a></html>
 
-<font face="verdana">
 ## About
 Our service specificly provides each individual a unique program that exemplifies **professional** accuracy. Our **complex** program debunks website(s) of the users concern for **free**.
 
@@ -10,4 +9,3 @@ Our service specificly provides each individual a unique program that exemplifie
 
 ## License
 Copyright © 2017 **ChestFest** (http://chestfest.github.io)
-</font>
