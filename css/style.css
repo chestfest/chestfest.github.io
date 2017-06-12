@@ -10,23 +10,30 @@ a {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
-@keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(5deg); }
-   95% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
+.face:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
-h1.wiggle {
-  display: inline-block;
-  animation: wiggle 2.5s infinite;
-}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
 
-h1.wiggle:hover {
-  animation: none;
-}
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
 
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 
 html {
     position: fixed;
