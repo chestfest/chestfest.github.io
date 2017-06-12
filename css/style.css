@@ -10,6 +10,24 @@ a {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+h1.wiggle {
+  display: inline-block;
+  animation: wiggle 2.5s infinite;
+}
+
+h1.wiggle:hover {
+  animation: none;
+}
+
+
 html {
     position: fixed;
     top: 0;
