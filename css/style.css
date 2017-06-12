@@ -10,14 +10,14 @@ a {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
-.face {
+/* .face {
   position: absolute;
   margin: auto;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-}
+} */
 
 .face:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
