@@ -3,7 +3,7 @@ var s = new Audio('Display/hit.wav');
 var s1 = new Audio('Display/punch.wav');
 
 var playFirst = true;
-function playSound() {
+function play() {
   if (playFirst) {
     s.play();
   } else {
