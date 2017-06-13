@@ -102,7 +102,7 @@ h1 {
 }
 
 .shadow {
-    box-shadow: 15px 15px 8px black;
+    box-shadow: 15px 15px 5px #111111;
 }
 
 #shadow {
