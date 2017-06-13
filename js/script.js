@@ -1,7 +1,12 @@
-  function play() {
-      var audio = document.getElementById("audio");
-      audio.play();
-  }
+function Sound(){
+    this.src = "Display/hit.wav"
+}
+
+function playSound(source){
+    var sound = new Sound();
+    sound.src = source;
+    sound.play()
+}
 
   window.onload = function() {
 
