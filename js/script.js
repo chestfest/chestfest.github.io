@@ -1,4 +1,4 @@
-var audio = new Audio('audio_file.mp3');
+var audio = new Audio('Display/hit.wav');
 audio.play();
 
   window.onload = function() {
