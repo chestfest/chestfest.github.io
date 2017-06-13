@@ -30,7 +30,6 @@
     <script src="/js/script.js" type="text/javascript"></script>
     <link rel="stylesheet" href="/css/w3.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <audio id="audio" src="/Display/hit.wav"></audio>
 </head>
 
 <body>
@@ -51,9 +50,11 @@
         <div class="w3-animate-opacity">
             <div class="w3-hover-opacity">
                 <div class="face">
-                    <img src="/Display/Images/Shadow.png" style="w3-image" class="shadow" id="img" alt="Shadow" onclick="playSound(source)">
-                    <img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest" onclick="playSound(source)">
-                    <img src="/Display/Images/cf.png" style="w3-image" id="img" alt="Text" onclick="playSound(source)">
+                    <audio src="/Display/hit.wav" preload="true" src="/Display/hit.wav" type="audio/wav">
+                        <img src="/Display/Images/Shadow.png" style="w3-image" class="shadow" id="img" alt="Shadow" onclick="playSound(source)">
+                        <img src="/Display/Images/ChestFest.gif" style="w3-image" id="img" alt="Chest" onclick="playSound(source)">
+                        <img src="/Display/Images/cf.png" style="w3-image" id="img" alt="Text" onclick="playSound(source)">
+                    </audio>
                 </div>
             </div>
         </div>
