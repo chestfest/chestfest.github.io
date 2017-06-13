@@ -7,5 +7,6 @@ Our service specificly provides each individual a unique program that exemplifie
 - Performant
 - Predictable abstractions
 
-## License
-Copyright © 2017 **ChestFest** (http://chestfest.github.io)
+## MIT License
+Copyright © 2017 **Aiden Bai** (http://chestfest.github.io)
+
