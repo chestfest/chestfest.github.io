@@ -1,5 +1,6 @@
-var audio = new Audio('Display/hit.wav');
-audio.play();
+function play() {
+    document.getElementById('Display/hit.wav').play();
+}
 
   window.onload = function() {
 
