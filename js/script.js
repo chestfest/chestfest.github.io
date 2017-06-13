@@ -1,5 +1,5 @@
 function play() {
-    document.getElementById('Display/hit.wav').play();
+    document.getElementById('audio').play();
 }
 
   window.onload = function() {
