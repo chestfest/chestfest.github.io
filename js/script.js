@@ -1,12 +1,4 @@
-function Sound(){
-    this.src = "Display/hit.wav"
-}
-
-function playSound(source){
-    var sound = new Sound();
-    sound.src = source;
-    sound.play()
-}
+document.getElementById('Display/hit.wav').play();
 
   window.onload = function() {
 
