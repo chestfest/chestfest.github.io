@@ -1,7 +1,16 @@
-  function play() {
-      var audio = document.getElementById("audio");
-      audio.play();
+var s = new Audio('Display/hit.wav');
+
+var s1 = new Audio('Display/punch.wav');
+
+var playFirst = true;
+function playSound() {
+  if (playFirst) {
+    s.play();
+  } else {
+    s2.play();
   }
+  playFirst = !playFirst;
+}
 
 
 window.onload = function() {
