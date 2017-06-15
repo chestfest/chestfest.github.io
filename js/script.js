@@ -3,22 +3,19 @@
       audio.play();
   }
 
-var clickSound = new Audio("Display/Audio/Airhorn.wav");
+var snd1  = new Audio();
+var src1  = document.createElement("source");
+src1.type = "audio/wav";
+src1.src  = "Display/Audio/Airhorn.wav";
+snd1.appendChild(src1);
 
-function playAudioOnKeyDown(e) {
-  if (e.keyCode == 38) {
-    clickSound.play();
-  }
-}
-document.onkeydown = playAudioOnKeyDown;
+var snd2  = new Audio();
+var src2  = document.createElement("source");
+src2.type = "audio/wav";
+src2.src  = "Display/Audio/Airhorn.wav";
+snd2.appendChild(src2);
 
-
-function pauseAudioOnKeyUp(e) {
-  if (e.keyCode == 38) {
-    clickSound.pause();
-  }
-}
-document.onkeyup = pauseAudioOnKeyUp;
+snd1.play(); snd2.play(); // Now both will play at the same time
 
   window.onload = function () {
       document.getElementById('ani').addEventListener('click', function (e) {
@@ -26,5 +23,4 @@ document.onkeyup = pauseAudioOnKeyUp;
           img.setAttribute('src', 'http://blog.stackoverflow.com/wp-content/uploads/stackoverflow-logo-300.png');
           e.target.appendChild(img);
       });
-
   };
