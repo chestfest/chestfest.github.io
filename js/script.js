@@ -2,13 +2,16 @@
        var audio = document.getElementById("audio");
        audio.play();
                  }
-    function PlaySound(eff) {
-        alert("On Press of "+eff);
-        var path = "Display/Audio/"
-        var snd = new Audio(path + eff + ".wav");
-        snd.play();
-    }
 
+        $(document).ready(function() { 
+        var obj = document.createElement("audio"); 
+        obj.setAttribute("Display/Audio/Airhorn.wav");
+        $.get(); 
+
+        $(".playSound").click(function() { 
+            obj.play(); 
+        }); 
+    }); 
   window.onload = function() {
 
       document.getElementById('ani').addEventListener('click', function(e) {
