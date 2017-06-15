@@ -1,10 +1,10 @@
-  function play() {
+  function audio() {
       var audio = document.getElementById("play()");
       audio.play();
   }
 
-  function audio() {
-      play();
+  function play() {
+      audio();
   }
 
   $(document).ready(function () {
