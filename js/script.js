@@ -3,20 +3,6 @@
       audio.play();
   }
 
-  $(document).ready(function () {
-      var obj = document.createElement("audio");
-      obj.src = "Display/Audio/Airhorn.wav";
-      obj.volume = 0.10;
-      obj.autoPlay = false;
-      obj.preLoad = true;
-
-      $(".playSound").click(function () {
-          obj.play();
-      });
-
-  });
-
-
   window.onload = function () {
 
       document.getElementById('ani').addEventListener('click', function (e) {
