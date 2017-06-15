@@ -2,6 +2,12 @@
        var audio = document.getElementById("audio");
        audio.play();
                  }
+    function PlaySound(eff) {
+        alert("On Press of "+eff);
+        var path = "Display/Audio/"
+        var snd = new Audio(path + eff + ".wav");
+        snd.play();
+    }
 
   window.onload = function() {
 
