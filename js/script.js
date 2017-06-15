@@ -1,16 +1,7 @@
-function play() {
-    document.getElementById('audio').play();
-}
-
-function Sound(){
-    this.src = "Airhorn"
-}
-
-function playSound(source){
-    var sound = new Sound();
-    sound.src = source;
-    sound.play()
-}
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
 
   window.onload = function() {
 
