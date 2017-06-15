@@ -2,6 +2,16 @@ function play() {
     document.getElementById('audio').play();
 }
 
+function Sound(){
+    this.src = "Airhorn"
+}
+
+function playSound(source){
+    var sound = new Sound();
+    sound.src = source;
+    sound.play()
+}
+
   window.onload = function() {
 
       document.getElementById('ani').addEventListener('click', function(e) {
