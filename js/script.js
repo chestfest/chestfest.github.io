@@ -3,7 +3,7 @@
       audio.play();
   }
 
-  function playverify() {
+  function audio() {
       play();
   }
 
