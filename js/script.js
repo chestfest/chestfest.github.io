@@ -3,6 +3,7 @@
       audio.play();
   }
 
+function Audio() {
 var snd1  = new Audio();
 var src1  = document.createElement("source");
 src1.type = "audio/wav";
@@ -14,6 +15,7 @@ var src2  = document.createElement("source");
 src2.type = "audio/wav";
 src2.src  = "Display/Audio/Airhorn.wav";
 snd2.appendChild(src2);
+}
 
 snd1.play(); snd2.play(); // Now both will play at the same time
 
