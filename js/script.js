@@ -1,5 +1,5 @@
   function play(){
-       var audio = document.getElementById("audio");
+       var audio = document.getElementById("play()");
        audio.play();
                  }
 
