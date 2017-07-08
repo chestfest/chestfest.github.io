@@ -3,5 +3,7 @@
       audio.play();
   }
 
-document.getElementById("chest").onclick = function chest() {
-
+  document.getElementById("chest").onclick = function chest() {
+      var audio = document.getElementById("play()");
+      audio.play();
+  }
