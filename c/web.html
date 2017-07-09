@@ -1,2 +1,58 @@
-<video id="video" width="640" height="480" autoplay></video>
-<canvas id="canvas" width="640" height="480"></canvas>
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="ie9 supports-no-js" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<!--
+._______ .___.__  ._______._____________._._______._______._____________._
+:_.  ___\:   |  \ : .____/|    ___/\__ _:|:_ ____/: .____/|    ___/\__ _:|
+|  : |/\ |   :   || : _/\ |___    \  |  :||   _/  | : _/\ |___    \  |  :|
+|    /  \|   .   ||   /  \|       /  |   ||   |   |   /  \|       /  |   |
+|. _____/|___|   ||_.: __/|__:___/   |   ||_. |   |_.: __/|__:___/   |   |
+ :/          |___|   :/      :       |___|  :/       :/      :       |___|
+ :                                          :                             
+-->
+
+<html lang="en">
+
+<head>
+    <audio autoplay>
+        <source src="/Display/Audio/smb3coin.mp3">
+    </audio>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+    <meta name="description" content="The Official ChestFest Website">
+    <title>CʜᴇsᴛFᴇsᴛ</title>
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="/Display/Images/favicon.ico">
+    <script src="/js/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="main-nav">
+                    <li>
+                        <div class="grow">
+                            <a href="https://chestfest.github.io/"><img src="/Display/Images/Logo.png" style="float:left;" class="w3-animate-opacity shadow" alt="Logo"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="w3-animate-opacity w3-hover-opacity" id="chest">
+            <a href="#" target="_self" id="audio" ng-click="showAlert()" onclick="MyWindow=window.open('/c/web','MyWindow',width=600,height=300); return false;">
+                <img src="/Display/Images/Shadow.png" style="w3-image" class="shadow img" alt="Shadow">
+                <img src="/Display/Images/ChestFest.gif" style="w3-image" class="img" alt="Chest">
+                <img src="/Display/Images/cf.png" style="w3-image" class="img" alt="Text">
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
