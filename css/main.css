@@ -75,6 +75,13 @@ p, h1, h2, h3, h4, h5 {
     color: white;
 }
 
+p.blue::selection {
+  background: #a2e9f9;
+}
+p.blue::-moz-selection {
+  background: #a2e9f9;
+}
+
 .row:before,
 .row:after {
     content: "";
