@@ -1,34 +1,18 @@
 'use strict'
 
-navigator.getUserMedia({video: true, audio: true}, function(localMediaStream) {
-  var video = document.querySelector('video');
-  video.src = window.URL.createObjectURL(localMediaStream);
+// Grab elements, create settings, etc.
+var video = document.getElementById('video');
 
-  // Note: onloadedmetadata doesn't fire in Chrome when using it with getUserMedia.
-  // See crbug.com/110938.
-  video.onloadedmetadata = function(e) {
-  // Ready to go. Do some stuff.
-  };
-}, onFailSoHard);
-
-navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia;
-
-var video = document.querySelector('video');
-
-if (navigator.getUserMedia) {
-  navigator.getUserMedia({audio: true, video: true}, function(stream) {
-    if (navigator.webkitGetUserMedia) {
-      video.src = window.webkitURL.createObjectURL(stream);
-    } else {
-      video.src = stream; // Opera
-    }
-  }, onFailSoHard);
-} else {
-  video.src = 'somevideo.webm'; // fallback.
+// Get access to the camera!
+if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    // Not adding `{ audio: true }` since we only want video now
+    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+        video.src = window.URL.createObjectURL(stream);
+        video.play();
+    });
 }
 
-function hasGetUserMedia() {
-   // Note: Opera builds are unprefixed.
-   return !!(navigator.getUserMedia || navigator.webkitGetUserMedia ||
-        navigator.mozGetUserMedia || navigator.msGetUserMedia);
-}
+// Elements for taking the snapshot
+var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+var video = document.getElementById('video');
