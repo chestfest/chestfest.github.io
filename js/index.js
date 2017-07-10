@@ -1,3 +1,3 @@
 'use strict'
 //using sweetalert code here
-swal("Roast", "I'm useless. At least you're alive. Too bad you can't do anything with your life.")
+swal("Notice", "This program is not fully functioning and currently does not do much.")
