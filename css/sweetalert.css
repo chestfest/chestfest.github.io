@@ -1,3 +1,8 @@
+@font-face {
+    font-family: nokia;
+    src: url(/Display/Fonts/nokiafc22.ttf);
+}
+
 body.stop-scrolling {
   height: 100%;
   overflow: hidden; }
