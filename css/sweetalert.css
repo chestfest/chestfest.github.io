@@ -22,6 +22,7 @@ body.stop-scrolling {
   z-index: 10000; }
 
 .sweet-alert {
+  text-shadow: 0 0 3px #f2f7ff;
   background-color: white;
   width: 478px;
   padding: 17px;
