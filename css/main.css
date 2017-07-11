@@ -3,59 +3,6 @@
     src: url(/Display/Fonts/nokiafc22.ttf);
 }
 
-/*start*/
-@-webkit-keyframes rainhowHueShadow {
-    from {
-        filter: hue-rotate(0deg) drop-shadow(4px 4px black);
-        -webkit-filter: hue-rotate(0deg) drop-shadow(4px 4px black);
-    }
-    to {
-        -webkit-filter: hue-rotate(360deg) drop-shadow(4px 4px black);
-        filter: hue-rotate(360deg) drop-shadow(4px 4px black);
-    }
-}
-
-@keyframes rainhowHueShadow {
-    from {
-        filter: hue-rotate(0deg) drop-shadow(4px 4px black);
-        -webkit-filter: hue-rotate(0deg) drop-shadow(4px 4px black);
-    }
-    to {
-        -webkit-filter: hue-rotate(360deg) drop-shadow(4px 4px black);
-        filter: hue-rotate(360deg) drop-shadow(4px 4px black);
-    }
-}
-
-@-webkit-keyframes rainbowHue {
-    from {
-        filter: hue-rotate(0deg);
-        -webkit-filter: hue-rotate(0deg);
-    }
-    to {
-        -webkit-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
-}
-
-@keyframes rainbowHue {
-    from {
-        filter: hue-rotate(0deg);
-        -webkit-filter: hue-rotate(0deg);
-    }
-    to {
-        -webkit-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
-}
-
-.retro, .btn-rainbow:hover,
-.retro, .btn-rainbow--page-title-link:focus {
-    color: #bbbf7d;
-    -webkit-animation: rainbowHue 1s infinite;
-    animation: rainbowHue 1s infinite;
-}
-/*end*/
-
 a {
     text-decoration: none;
 }
