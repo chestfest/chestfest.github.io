@@ -89,6 +89,7 @@ body {
     background-color: #1c1c1c;
     font-family: nokia;
     cursor: url(Images/cursor.cur);
+    margin: 0;
     overflow: hidden;
     position: fixed;
     height: 100%;
