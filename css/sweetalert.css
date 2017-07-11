@@ -3,6 +3,12 @@
     src: url(/Display/Fonts/nokiafc22.ttf);
 }
 
+.center-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
 body.stop-scrolling {
   height: 100%;
   overflow: hidden; }
