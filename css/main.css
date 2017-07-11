@@ -7,6 +7,19 @@ a {
     text-decoration: none;
 }
 
+iframe {
+    width: 500px;
+    height: 500px;
+}
+
+iframe.fullScreen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .grow {
     /* transition: all .2s ease-in-out; */
     transition: transform 0.2s;
@@ -20,6 +33,7 @@ a {
     height: 375px;
     border: 10px #333 solid;
 }
+
 #videoElement {
     width: 500px;
     height: 375px;
@@ -84,16 +98,22 @@ body {
     right: 0;
 }
 
-p, h1, h2, h3, h4, h5 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: nokia;
     color: white;
 }
 
 p.blue::selection {
-  background: #a2e9f9;
+    background: #a2e9f9;
 }
+
 p.blue::-moz-selection {
-  background: #a2e9f9;
+    background: #a2e9f9;
 }
 
 .row:before,
