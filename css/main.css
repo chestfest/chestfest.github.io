@@ -7,6 +7,16 @@ a {
     text-decoration: none;
 }
 
+btn-signup {
+    align-items: center;
+    background: #5BC0DE;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 25px;
+    height: 48px;
+    font-weight: 1000;
+}
+
 .grow {
     /* transition: all .2s ease-in-out; */
     transition: transform 0.2s;
