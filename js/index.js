@@ -5,8 +5,8 @@ if (window.location.pathname != '/c/web') {
 }
 console.log('%c ChestFest', 'color: lightblue; font-size: 20px; font-weight: bold;')
 window.onload = function debug() {
-    console.log('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
+    console.info('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
 }
-window.onerror = function() {
+window.onerror = function () {
     console.error('error debug')
 }
