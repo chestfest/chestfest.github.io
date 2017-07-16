@@ -5,5 +5,5 @@ if (window.location.pathname != '/c/web') {
 }
 console.log('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
 window.onload = function debug() {
-    console.log('%c ChestFest", "color: lightblue; font-style: bold; font-size: 40px')
+    console.log("%c ChestFest", "color: lightblue; font-style: bold; font-size: 40px")
 }
