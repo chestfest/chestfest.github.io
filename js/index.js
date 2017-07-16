@@ -7,4 +7,4 @@ console.log("%c ChestFest", "color: lightblue; font-size: 20px; font-weight: bol
 window.onload = function debug() {
     console.log('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
 }
-console.error(error debug);
+console.error(error debug)
