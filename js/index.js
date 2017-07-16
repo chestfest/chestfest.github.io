@@ -8,5 +8,5 @@ window.onload = function debug() {
     console.info('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
 }
 window.onerror = function () {
-    console.error('error debug')
+    console.error('Try to reload page. If it does not load, wait until our developers fix the problem.')
 }
