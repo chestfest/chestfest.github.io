@@ -5,5 +5,5 @@ if (window.location.pathname != '/c/web') {
 }
 console.log('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
 console.log('-------')
-console.log('|      |')
+console.log('|Debug|')
 console.log('-------')
