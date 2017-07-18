@@ -10,3 +10,4 @@ window.onload = function debug() {
 window.onerror = function () {
     console.error('Try to reload (⟳) page. If it does not load, wait until our developers fix the problem.')
 }
+
