@@ -11,7 +11,7 @@ a {
     margin: 0px;
     width: 200px;
     height: 50px;
-    background: #EFC332;
+    background: #8CD4F5;
     overflow: hidden;
     text-align: center;
     transition: .2s;
@@ -22,7 +22,7 @@ a {
 
 .button:hover {
     margin-left: 0px;
-    background-color: #DF432F;
+    background-color: #3299BB;
 }
 
 .grow {
