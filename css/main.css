@@ -20,23 +20,13 @@ a {
     transition-delay: .3s;
 }
 
-.hauver {
-    background-color: transparent;
-    height: 50px;
-    width: 200px;
-    margin-top: -50px;
-    text-align: center;
-    margin-left: -200px;
-    transition: margin-left 0.3s, background-color 0.5s 0.3s;
-}
-
 p.blanc {
     text-align: center;
     color: white;
     padding-top: 15px;
 }
 
-.button:hover .hauver {
+.button:hover {
     margin-left: 0px;
     background-color: #DF432F;
 }
