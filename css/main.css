@@ -7,24 +7,6 @@ a {
     text-decoration: none;
 }
 
-.btn-cf {
-    margin: 0px;
-    width: 200px;
-    height: 50px;
-    background: #8CD4F5;
-    overflow: hidden;
-    text-align: center;
-    transition: .2s;
-    cursor: pointer;
-    transition-delay: .3s;
-    vertical-align: middle;
-}
-
-.btn-cf:hover {
-    margin-left: 0px;
-    background-color: #3299BB;
-}
-
 .grow {
     /* transition: all .2s ease-in-out; */
     transition: transform 0.2s;
