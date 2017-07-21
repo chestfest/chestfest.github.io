@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 
-.button {
+.btn-cf {
     margin: 0px;
     width: 200px;
     height: 50px;
@@ -20,7 +20,7 @@ a {
     vertical-align: middle;
 }
 
-.button:hover {
+.btn-cf:hover {
     margin-left: 0px;
     background-color: #3299BB;
 }
