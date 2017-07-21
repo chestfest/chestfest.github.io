@@ -18,7 +18,6 @@ a {
     cursor: pointer;
     transition-delay: .3s;
     vertical-align: middle;
-    text-align: center;
 }
 
 .button:hover {
