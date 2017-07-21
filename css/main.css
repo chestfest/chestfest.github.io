@@ -3,6 +3,10 @@
     src: url(/Display/Fonts/nokiafc22.ttf);
 }
 
+.geo {
+    background: url('http://thecodeplayer.com/uploads/media/geometry.png');
+}
+
 a {
     text-decoration: none;
 }
