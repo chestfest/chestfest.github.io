@@ -20,12 +20,6 @@ a {
     transition-delay: .3s;
 }
 
-p.blanc {
-    text-align: center;
-    color: white;
-    padding-top: 15px;
-}
-
 .button:hover {
     margin-left: 0px;
     background-color: #DF432F;
