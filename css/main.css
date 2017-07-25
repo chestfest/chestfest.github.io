@@ -3,6 +3,17 @@
     src: url(/Display/Fonts/nokiafc22.ttf);
 }
 
+/*.parallax { 
+    background-image: url("img_parallax.jpg");
+
+    height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
 .btn-lb {
     background-color: blue;
     border-radius: 5px;
