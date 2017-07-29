@@ -7,7 +7,20 @@ console.log('%c                                > ChestFest < ', 'color: #8CD4F5;
 window.onload = function debug() {
     console.info('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
 }
-window.onerror = function () {
+window.onerror = function() {
     console.error('Try to reload (⟳) page. If page still does not work, wait until our developers fix the problem.')
 }
 
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-23441223-3']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+(function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+})();
