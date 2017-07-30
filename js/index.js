@@ -10,3 +10,11 @@ window.onload = function debug() {
 window.onerror = function() {
     console.error('Try to reload (⟳) page. If page still does not work, wait until our developers fix the problem.')
 }
+
+f (cursorChar === ' ') {
+        document.title = document.title.slice(0, document.title.length-1);
+    } else {
+        document.title += cursorChar;
+    } 
+    updateLine();
+}
