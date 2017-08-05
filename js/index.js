@@ -1,13 +1,16 @@
 'use strict'
+
+var website = 'https://agar.io/'
+
 //using sweetalert code here
 if (window.location.pathname != '/c/web') {
     swal("Notice", "This program is in the developing stage and some assets may be unfinished or broken.")
 }
-console.log('%c                                > ChestFest < ', 'color: #8CD4F5; font-size: 20px; font-weight: bold;')
-window.onload = function debug() {
-    console.info('Welcome to ChestFest, a website unblocker program. You can find the Github Repo here: https://github.com/chestfest/chestfest.github.io')
+
+window.onload = function () {
+    document.getElementById("submit").onclick = function() {
+    document.getElementById("web").innerhtml += '<iframe src="' + website + '" id="web" style="position:fixed; top:80px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>';
 }
-window.onerror = function() {
-    console.error('Try to reload (⟳) page. If page still does not work, wait until our developers fix the problem.')
 }
+
 
