@@ -13,75 +13,12 @@
     background-size: cover;
 }*/
 
-.animate {
-    transition: all 0.1s;
-    -webkit-transition: all 0.1s;
-}
-
-.action-button {
-    position: relative;
-    padding: 10px 40px;
-    margin: 0px 10px 10px 0px;
-    float: left;
-    border-radius: 8px;
-    font-size: 25px;
-    color: #FFF;
-    text-decoration: none;
-}
-
-.blue {
-    background-color: #3498DB;
-    border-bottom: 5px solid #2980B9;
-    text-shadow: 0px -2px #2980B9;
-}
-
-.striped {
-    background-color: orange;
-    width: 100px;
-    height: 45px;
-    font-weight: bolder;
-    font-size: 13px;
-    color: #000;
-    border: 2px dashed darkorange;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    text-align: center;
-}
-
-.btn-lb {
-    background-color: blue;
-    border-radius: 5px;
-    padding: 20px;
-    color: white;
-    font-weight: bolder;
-}
-
-a {
-    text-decoration: none;
-}
-
 .grow {
     /* transition: all .2s ease-in-out; */
     transition: transform 0.2s;
 }
 
 #chest {}
-
-#container {
-    margin: 0px auto;
-    width: 500px;
-    height: 375px;
-    border: 10px #333 solid;
-}
-
-#videoElement {
-    width: 500px;
-    height: 375px;
-    background-color: #666;
-}
 
 .grow:hover {
     transform: scale(1.1);
@@ -180,10 +117,6 @@ p.blue::-moz-selection {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
-
-.section-about {
-    font-weight: bold;
 }
 
 .shadow {
