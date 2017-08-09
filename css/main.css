@@ -70,6 +70,7 @@ body {
     font-family: nokia;
     cursor: url(Images/cursor.cur);
     margin: 0;
+    padding: 0;
     overflow: hidden;
     position: fixed;
     height: 100%;
