@@ -124,6 +124,7 @@ p.blue::-moz-selection {
     z-index: 9999;
     padding: 15px;
     position: relative;
+    margin: 0;
     list-style: none;
     text-align: left;
 }
