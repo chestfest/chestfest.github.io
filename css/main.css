@@ -96,22 +96,6 @@ p.blue::-moz-selection {
     background: #a2e9f9;
 }
 
-.row:before,
-.row:after {
-    content: "";
-    display: table;
-}
-
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-    height: auto;
-}
-
-.row {
-    zoom: 1;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -133,7 +117,7 @@ p.blue::-moz-selection {
 }
 
 .main-nav {
-    width: 100%;
+    width: 1000;
     background-color: rgba(20, 20, 20, 0.98);
     box-shadow: 0 4px 4px #000000;
     z-index: 9999;
