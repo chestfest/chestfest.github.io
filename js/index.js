@@ -12,6 +12,7 @@ function KeyPress(e) {
 
     if (cf.keyCode == 116 && cf.ctrlKey) swal({title: "Refreshing...", text: "App Created by Inb4", showConfirmButton: false});
     else if (cf.keyCode == 116) swal({title: "Refreshing...", text: "App Created by Inb4", showConfirmButton: false});
+    else if (cf.keyCode == 82 && cf.ctrlKey) swal({title: "Refreshing...", text: "App Created by Inb4", showConfirmButton: false});
 }
 
 document.onkeydown = KeyPress;
