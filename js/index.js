@@ -10,9 +10,9 @@ window.onload = function() {
 function KeyPress(e) {
     var cf = window.event ? event : e
 
-    if (cf.keyCode == 116 && cf.ctrlKey) swal({title: "Refreshing...", text: "App Created by Inb4", showConfirmButton: false});
-    else if (cf.keyCode == 116) swal({title: "Refreshing...", text: "App Created by Inb4", showConfirmButton: false});
-    else if (cf.keyCode == 82 && cf.ctrlKey) swal({title: "Refreshing...", text: "App Created by Inb4", showConfirmButton: false});
+    if (cf.keyCode == 116 && cf.ctrlKey) swal({title: "Refreshing...", text: "Will be done in a sec!", showConfirmButton: false});
+    else if (cf.keyCode == 116) swal({title: "Refreshing...", text: "Will be done in a sec!", showConfirmButton: false});
+    else if (cf.keyCode == 82 && cf.ctrlKey) swal({title: "Refreshing...", text: "Will be done in a sec!", showConfirmButton: false});
 }
 
 document.onkeydown = KeyPress;
