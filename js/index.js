@@ -1,5 +1,7 @@
 'use strict'
 
+function convert ()
+
 //using sweetalert code here
 window.onload = function() {
     if (window.location.pathname != '/c/splix-io') {
