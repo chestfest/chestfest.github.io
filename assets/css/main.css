@@ -1,0 +1,198 @@
+@font-face {
+    font-family: nokia;
+    src: url(/Display/Fonts/nokiafc22.ttf);
+}
+
+
+/*.parallax { 
+    background-image: url("/Display/Images/blankimg.png");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.grow {
+    /* transition: all .2s ease-in-out; */
+    transition: transform 0.2s;
+}
+
+#chest {}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.face:active {
+    animation: shake 0.25s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+html {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-color: #1c1c1c;
+    font-family: nokia;
+    cursor: url(Images/cursor.cur);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+p,
+h2,
+h3,
+h4,
+h5 {
+    font-family: nokia;
+    color: white;
+}
+
+p.blue::selection {
+    background: #a2e9f9;
+}
+
+p.blue::-moz-selection {
+    background: #a2e9f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 15px 15px 5px #111111;
+}
+
+.img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-nav {
+    width: 1000;
+    background-color: rgba(20, 20, 20, 0.98);
+    box-shadow: 0 4px 4px #000000;
+    z-index: 9999;
+    padding: 15px;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.main-nav li {
+    display: inline-block;
+    text-transform: strong;
+    font-size: 240%;
+}
+
+.button {
+    position: absolute;
+    top: 0%;
+    bottom: 5%;
+    left: 0%;
+    right: 0%;
+}
+
+.hidden {
+    display: none;
+}
+
+.wordbox {
+    margin: 30px auto 0;
+    display: block;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    color: #000000;
+    transition: 1s linear;
+}
+
+.main-nav li a:visited {
+    color: #353535;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    color: #384963;
+    text-decoration: none;
+}
+
+.main-nav li a:active {
+    color: #4286f4;
+    text-decoration: none;
+}
+
+.button {
+    background: #3299bb;
+    color: white;
+    font-family: nokia;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px black;
+}
+
+.button:active {
+    top: 12px;
+    box-shadow: 0px 2px 10px black;
+}
+
+.button:hover {
+    background: #3999ee;
+}
