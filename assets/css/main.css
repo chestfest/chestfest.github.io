@@ -3,6 +3,17 @@
     src: url(/Display/Fonts/nokiafc22.ttf);
 }
 
+@keyframes MoveUpDown {
+	0% {
+		transform: translate3d(0, -0, 0);
+	}
+	50% {
+		transform: translate3d(0, -10%, 0);
+	}
+	100% {
+		transform: translate3d(0, -0, 0);
+	}
+}
 
 /*.parallax { 
     background-image: url("/Display/Images/blankimg.png");
@@ -18,7 +29,9 @@
     transition: transform 0.2s;
 }
 
-#chest {}
+#chest {
+    animation: MoveUpDown 1s linear infinite;
+}
 
 .grow:hover {
     transform: scale(1.1);
