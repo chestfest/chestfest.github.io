@@ -1,7 +1,7 @@
 <!DOCTYPE html><a href="https://chestfest.github.io/" target="_blank"><div align="center"><img src="assets/images/ChestFest.gif" style="w3-image" class="img" alt="Chest"></div></a></html>
 
 ## About
-[Insert descriptive Description here]
+[Insert descriptive description here]
 
 - Object-oriented
 - Performant
