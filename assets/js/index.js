@@ -36,3 +36,5 @@ function KeyPress(e) {
 }
 
 document.onkeydown = KeyPress;
+
+if (window.top !== window.self) window.top.location.replace(window.self.location.href);
