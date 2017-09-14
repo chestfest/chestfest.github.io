@@ -19,7 +19,7 @@ window.onload = function() {
     if (annyang) {
         var commands = {
             'open': function() {
-                window.location.href = "assets/c/game";
+                 window.open('assets/c/game', '_blank'); 
             }
         };
         annyang.addCommands(commands);
