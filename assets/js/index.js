@@ -18,10 +18,9 @@ window.onload = function() {
     }
     if (annyang) {
         var commands = {
-            'hello (there)': hello,
-        };
-        var hello = function() {
-            swal('Hello!')
+            'hello': function() {
+                swal('Hello!')
+            }
         };
         annyang.addCommands(hello);
         annyang.debug();
