@@ -13,13 +13,13 @@
 
 //using sweetalert code here
 window.onload = function() {
-    if (window.location.pathname != '/c/splix-io') {
+    if (window.location.pathname != 'assets/c/game') {
         swal("Notice", "This program is in the developing stage and some assets may be unfinished or broken.")
     }
     if (annyang) {
         var commands = {
-            'hey chest fest': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
+            'open': function() {
+                window.location.href = "assets/c/game";
             }
         };
         annyang.addCommands(commands);
