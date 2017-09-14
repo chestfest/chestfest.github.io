@@ -22,7 +22,7 @@ window.onload = function() {
                 swal('Hello!')
             }
         };
-        annyang.addCommands(hello);
+        annyang.addCommands(commands);
         annyang.debug();
 
         annyang.start();
