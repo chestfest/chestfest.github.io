@@ -20,7 +20,7 @@ window.onload = function() {
         var commands = {
             'hello (there)': hello,
         };
-        annyang.addCommands(commands);
+        annyang.addCommands(hello);
         annyang.debug();
 
         annyang.start();
