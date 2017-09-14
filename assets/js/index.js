@@ -20,13 +20,14 @@ window.onload = function() {
         var commands = {
             'hello (there)': hello,
         };
+        var hello = function() {
+            swal('Hello!')
+        };
         annyang.addCommands(hello);
         annyang.debug();
 
         annyang.start();
-        var hello = function() {
-            swal('Hello!')
-        };
+
     }
 }
 
