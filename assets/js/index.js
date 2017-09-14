@@ -19,7 +19,7 @@ window.onload = function() {
     if (annyang) {
         var commands = {
             'hello': function() {
-                swal('Hello!')
+                swal('Hello!, "This is a voice recognition mini easter egg!"')
             }
         };
         annyang.addCommands(commands);
