@@ -18,11 +18,11 @@ window.onload = function() {
     }
     if (annyang) {
         var commands = {
-            'hello!': function() {
-                alert("Hiya!")
-            }
+            'hello (there)': hello,
         };
-
+        var hello = function() {
+            swal('Hello!')
+        };
         annyang.addCommands(commands);
         annyang.debug();
 
