@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /*(function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -15,6 +15,18 @@
 window.onload = function() {
     if (window.location.pathname != '/c/splix-io') {
         swal("Notice", "This program is in the developing stage and some assets may be unfinished or broken.")
+    }
+    if (annyang) {
+        var commands = {
+            'hello!': function() {
+                alert("Hiya!")
+            }
+        };
+
+        annyang.addCommands(commands);
+        annyang.debug();
+
+        annyang.start();
     }
 }
 
