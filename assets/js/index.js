@@ -18,28 +18,7 @@ window.onload = function() {
     }
     if (annyang) {
         var commands = {
-            'hello': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
-            }
-            'hi': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
-            }
-            'heya': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
-            }
-            'heyo': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
-            }
-            'hiya': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
-            }
-            'herro': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
-            }
-            'hallo': function() {
-                swal("Hello", "This is a voice recognition mini easter egg!")
-            }
-            'harro': function() {
+            'chest fest': function() {
                 swal("Hello", "This is a voice recognition mini easter egg!")
             }
         };
