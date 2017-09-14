@@ -18,7 +18,7 @@ window.onload = function() {
     }
     if (annyang) {
         var commands = {
-            'hello': function() {
+            'hey chest fest': function() {
                 swal("Hello", "This is a voice recognition mini easter egg!")
             }
         };
