@@ -19,7 +19,10 @@ window.onload = function() {
     if (annyang) {
         var commands = {
             'open': function() {
-                 window.open('assets/c/game', '_blank'); 
+                 win = window.open('https://google.com/', '_blank'); 
+            }
+            'close': function() {
+                 win.close;
             }
         };
         annyang.addCommands(commands);
